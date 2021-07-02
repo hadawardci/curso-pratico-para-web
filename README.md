@@ -26,7 +26,7 @@ Destinado a estudantes e programadores que estão iniciando a carreira com foco 
    1.1. Adicione uma imagem com o seguinte link **img** => https://ichef.bbci.co.uk/news/640/cpsprodpb/1438B/production/_102672828_hi048321534-1.jpg
    1.1. Adicione um segundo parágrafo **p** => Começamos com trabalhando com títulos, parágrafos e imagem.
    1.1. Adicione um segundo parágrafo **p** => Mas, tem bastante coisa por ae...
-   1.1. Adicione a seguinte citação **blockquote** =>céu é o limite.
+   1.1. Adicione a seguinte citação **blockquote** => O céu é o limite.
 
 ## Módulo 02 - CSS
 
