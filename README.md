@@ -19,9 +19,9 @@ Destinado a estudantes e programadores que estão iniciando a carreira com foco 
 
 ### Módulo 01 - HTML
 
-### Aula 01 - Introdução a HTML
+#### Aula 01 - Introdução a HTML
 
-### Aula 02 - Redigindo Texto de artigo
+#### Aula 02 - Redigindo Texto
 
 ## Módulo 02 - CSS
 

@@ -91,7 +91,7 @@ O céu é o limite.
 
 ### Crie uma pagina HTML
 
-#### Insira no _head_
+#### _head_
 
 - Insira o _title_
 
@@ -100,7 +100,7 @@ Módulo 01 - HTML | Aula 02 - Redigindo Texto
 
 ```
 
-#### Insira no _body_
+#### _body_
 
 - Adicione o seguinte título _h1_
 
@@ -120,7 +120,7 @@ Manipulando informação como no Word
 Como ja dizia Platão:
 ```
 
-- Adicione a seguinte citação dentro dele _blockquote_
+- Adicione ao _p_ seguinte citação _blockquote_
 
 ```
 A necessidade que é a mãe da invenção.
@@ -132,21 +132,23 @@ A necessidade que é a mãe da invenção.
 Até o momentos estávamos trabalhando com parágrafos separados, mas agora vamos começar a usar quebra de linha para não sair do tema.
 ```
 
-- Dentro do mesmo parágrafo insira uma quebra de linha no final _<br>_
+- Dentro do mesmo ao _p_ insira uma quebra de linha no final _<br>_
+
 - Abaixo, continue com o texto
 
 ```
 Até o momentos estávamos trabalhando com parágrafos separados, mas agora vamos começar a usar quebra de linha para não sair do tema.
 ```
 
-- Dentro do mesmo parágrafo insira uma quebra de linha no final _<br>_
+- Dentro do mesmo ao _p_ insira uma quebra de linha no final _<br>_
+
 - Abaixo, continue com o texto
 
 ```
 Esta é a primeira quebra de linha sem paragrafo para continuar um assunto.
 ```
 
-- Dentro do mesmo parágrafo insira uma quebra de linha _<br>_ no final
+- Dentro do mesmo ao _p_ insira uma quebra de linha _<br>_ no final
 - Abaixo, continue com o texto
 
 ```
@@ -159,8 +161,10 @@ Esta é a última quebra de linha para encerrar o assunto.
 Vamos lidar com enfases no texto para aprender outras manipulações
 ```
 
-- Adicione outro parágrafo _p_
+- Dentro do mesmo ao _p_ insira uma quebra de linha no final _<br>_
+
+- Abaixo, insira o texto com destaque em itálico (sublinhado) _i_
 
 ```
-Vamos lidar com enfases no texto para aprender outras manipulações
+Para dar enfase gostaria de <i>sublinhar<i />
 ```
