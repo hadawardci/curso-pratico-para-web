@@ -3,11 +3,15 @@
 ## Introdução
 
 Siga as instruções abaixo para aprender como realizar ações fundamentais e cotidianas no HTML.
-as informações em _sublilhado_ representam tags em HTML, geralmente vc deve utilizar com abertura e encerramento
+as informações em _italic_ representam tags em HTML que voce deve usar, geralmente vc deve utilizar com abertura e encerramento
 
 - Exemplo de tag padrão: <tag-abre-fecha>informação da tag</tag-abre-fecha>.
   Lembre-se sempre que abrir ela deve fechar.
   Essa é uma regra geral, algumas delas são: html, head, body, h1, h5, table, div etc.
+
+  ```
+  <>este é um paragrafo </ p>
+  ```
 
 - Exemplo de tag singular: <tag-independente atributo-opcional="minha-fonte" />.
   Algumas tags devem se encerrar nelas mesma como no exemplo acima.
@@ -29,6 +33,12 @@ Quebra de linha
 ```
 <br>
 ```
+
+Lembre se sempre que ver uma _informação-italica_ você deve entender que trata-se da tag que você deve utilizar no exeplos acima.
+
+**Dica:** Ao fim de cada aula, pratique alternando formas de uso o que você aprendeu, evite fazer todas aulas no mesmo dia, ao invés disso use a criatividade para aplicar o conhecimento da aula e juntando com as anterioes para fixar na mente.
+
+---
 
 ## Aula 01 - Introdução a HTML
 
@@ -87,7 +97,9 @@ Mas, tem bastante coisa por ae...
 O céu é o limite.
 ```
 
-## Aula 02 - Redigindo Texto de artigo
+---
+
+## Aula 02 - Formatação de texto
 
 ### Crie uma pagina HTML
 
@@ -114,13 +126,76 @@ Redigindo Texto de artigo
 Manipulando informação como no Word
 ```
 
+- Adicione outro parágrafo _p_
+
+```
+Vamos lidar com enfases no texto para aprender outras manipulações
+```
+
+- Dentro do mesmo ao _p_ insira uma quebra de linha no final _br_
+
+- Abaixo, insira o texto com destaque sublinhado _ins_
+
+```
+Para dar enfase gostaria de sublinhar o texto para chamar a atenção.
+```
+
+- Abaixo, insira o texto com destaque em itálico _em_
+
+```
+Para dar enfase gostaria de usar italico como a torre de pisa.
+```
+
+-- OBS: A tag _i_ (italic) funciona da mesma maneira que _em_, porém esta \*obsoleta e tem sido utilizada para referenciar icones. Portanto prefira sempre _em_ para inclinar o texto.
+
+- Abaixo, insira o texto com destaque em negrito _strong_
+
+```
+Para dar enfase gostaria de negritar para chamar bastante atenção e fixar saltar aos olhos.
+```
+
+-- OBS: A tag _b_ (bold - negrito em inglês) pasa pelo mesmo processo \*obsoleto de _i_, por tanto prefira usar _strong_
+
+**\* Obsoleto:** Em programação, este termo é utilizado para referir-se a algo que vai cair em desuso e não tera mais suporte, ou seja sera descontinuado na próxima versão ou posteriormente, em outras palavras, "vai morrer".
+Evite utilizar quaisquer coisas obsoletas para que o aplicativo não pare de funcionar numa futura atualização.
+
+- Abaixo, insira o texto com destaque com o marcador _mark_
+
+```
+Para dar enfase gostaria de marcar a informação com caneta marca-texto.
+```
+
+- Abaixo, insira o texto com o destaque riscado _del_
+
+```
+Para dar enfase gostaria anular tudo que escrevi antes com esse risco.
+```
+
+===
+
+- Abaixo, insira o texto com o destaque riscado _del_
+
+```
+Para dar enfase gostaria anular tudo que escrevi antes com esse risco.
+```
+
+- Abaixo, insira o texto com o destaque riscado _del_
+
+```
+Para dar enfase gostaria anular tudo que escrevi antes com esse risco.
+```
+
+## ===
+
+## Aula 3 - Redigindo texto parte 2
+
 - Adicione um parágrafo _p_
 
 ```
 Como ja dizia Platão:
 ```
 
-- Adicione ao _p_ seguinte citação _blockquote_
+- Adicione ao _p_ a seguinte citação _blockquote_
 
 ```
 A necessidade que é a mãe da invenção.
@@ -132,7 +207,7 @@ A necessidade que é a mãe da invenção.
 Até o momentos estávamos trabalhando com parágrafos separados, mas agora vamos começar a usar quebra de linha para não sair do tema.
 ```
 
-- Dentro do mesmo ao _p_ insira uma quebra de linha no final _<br>_
+- Dentro do mesmo ao _p_ insira uma quebra de linha no final _br_
 
 - Abaixo, continue com o texto
 
@@ -140,7 +215,7 @@ Até o momentos estávamos trabalhando com parágrafos separados, mas agora vamo
 Até o momentos estávamos trabalhando com parágrafos separados, mas agora vamos começar a usar quebra de linha para não sair do tema.
 ```
 
-- Dentro do mesmo ao _p_ insira uma quebra de linha no final _<br>_
+- Dentro do mesmo ao _p_ insira uma quebra de linha no final _br_
 
 - Abaixo, continue com o texto
 
@@ -148,23 +223,9 @@ Até o momentos estávamos trabalhando com parágrafos separados, mas agora vamo
 Esta é a primeira quebra de linha sem paragrafo para continuar um assunto.
 ```
 
-- Dentro do mesmo ao _p_ insira uma quebra de linha _<br>_ no final
+- Dentro do mesmo ao _p_ insira uma quebra de linha _br_ no final
 - Abaixo, continue com o texto
 
 ```
 Esta é a última quebra de linha para encerrar o assunto.
-```
-
-- Adicione outro parágrafo _p_
-
-```
-Vamos lidar com enfases no texto para aprender outras manipulações
-```
-
-- Dentro do mesmo ao _p_ insira uma quebra de linha no final _<br>_
-
-- Abaixo, insira o texto com destaque em itálico (sublinhado) _i_
-
-```
-Para dar enfase gostaria de <i>sublinhar<i />
 ```
