@@ -9,9 +9,9 @@ as informações em _italic_ representam tags em HTML que voce deve usar, geralm
   Lembre-se sempre que abrir ela deve fechar.
   Essa é uma regra geral, algumas delas são: html, head, body, h1, h5, table, div etc.
 
-  ```
-  <>este é um paragrafo </ p>
-  ```
+```
+<p>este é um paragrafo </ p>
+```
 
 - Exemplo de tag singular: <tag-independente atributo-opcional="minha-fonte" />.
   Algumas tags devem se encerrar nelas mesma como no exemplo acima.
@@ -19,7 +19,7 @@ as informações em _italic_ representam tags em HTML que voce deve usar, geralm
   Imagem
 
 ```
-<img />
+<img src="link-aqui" />
 ```
 
 Tipo de documento
@@ -36,6 +36,8 @@ Quebra de linha
 
 Lembre se sempre que ver uma _informação-italica_ você deve entender que trata-se da tag que você deve utilizar no exeplos acima.
 
+Lembre-se sempre de criar o conteúdo com o número da aula.
+
 **Dica:** Ao fim de cada aula, pratique alternando formas de uso o que você aprendeu, evite fazer todas aulas no mesmo dia, ao invés disso use a criatividade para aplicar o conhecimento da aula e juntando com as anterioes para fixar na mente.
 
 ---
@@ -43,6 +45,20 @@ Lembre se sempre que ver uma _informação-italica_ você deve entender que trat
 ## Aula 01 - Introdução a HTML
 
 ### Crie uma pagina HTML
+
+No mínimo, sempre crie o arquivo HTML com o seguinte conteúdo.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+</ head>
+< body>
+</ body>
+</ html>
+```
+
+Faça isso também nas próximas aulas.
 
 #### _head_
 
@@ -108,7 +124,7 @@ O céu é o limite.
 - Insira o _title_
 
 ```
-Módulo 01 - HTML | Aula 02 - Redigindo Texto
+Módulo 01 - HTML | Aula 02 - Formatação de texto
 
 ```
 
@@ -146,7 +162,7 @@ Para dar enfase gostaria de sublinhar o texto para chamar a atenção.
 Para dar enfase gostaria de usar italico como a torre de pisa.
 ```
 
--- OBS: A tag _i_ (italic) funciona da mesma maneira que _em_, porém esta \*obsoleta e tem sido utilizada para referenciar icones. Portanto prefira sempre _em_ para inclinar o texto.
+- OBS: A tag _i_ (italic) funciona da mesma maneira que _em_, porém esta \*obsoleta e tem sido utilizada para referenciar icones. Portanto prefira sempre _em_ para inclinar o texto.
 
 - Abaixo, insira o texto com destaque em negrito _strong_
 
@@ -154,7 +170,7 @@ Para dar enfase gostaria de usar italico como a torre de pisa.
 Para dar enfase gostaria de negritar para chamar bastante atenção e fixar saltar aos olhos.
 ```
 
--- OBS: A tag _b_ (bold - negrito em inglês) pasa pelo mesmo processo \*obsoleto de _i_, por tanto prefira usar _strong_
+- OBS: A tag _b_ (bold - negrito em inglês) pasa pelo mesmo processo \*obsoleto de _i_, por tanto prefira usar _strong_
 
 **\* Obsoleto:** Em programação, este termo é utilizado para referir-se a algo que vai cair em desuso e não tera mais suporte, ou seja sera descontinuado na próxima versão ou posteriormente, em outras palavras, "vai morrer".
 Evite utilizar quaisquer coisas obsoletas para que o aplicativo não pare de funcionar numa futura atualização.
@@ -171,23 +187,40 @@ Para dar enfase gostaria de marcar a informação com caneta marca-texto.
 Para dar enfase gostaria anular tudo que escrevi antes com esse risco.
 ```
 
-===
-
-- Abaixo, insira o texto com o destaque riscado _del_
+- Ao lado, insira o texto superescrito _sup_
 
 ```
-Para dar enfase gostaria anular tudo que escrevi antes com esse risco.
+exponencial.
 ```
 
-- Abaixo, insira o texto com o destaque riscado _del_
+- Abaixo, insira o texto (sempre usando quebra de linha _br_)
 
 ```
-Para dar enfase gostaria anular tudo que escrevi antes com esse risco.
+Algumas informações
 ```
 
-## ===
+- Ao lado, insira o texto sobrescrito _sub_
 
-## Aula 3 - Redigindo texto parte 2
+```
+sobrescritas.
+```
+
+---
+
+## Aula 3 - Redigindo texto formal
+
+### Crie uma pagina HTML
+
+#### _head_
+
+- Insira o _title_
+
+```
+Módulo 01 - HTML | Aula 02 - Formatação de texto
+
+```
+
+#### _body_
 
 - Adicione um parágrafo _p_
 
@@ -195,7 +228,7 @@ Para dar enfase gostaria anular tudo que escrevi antes com esse risco.
 Como ja dizia Platão:
 ```
 
-- Adicione ao _p_ a seguinte citação _blockquote_
+- Adicione ao _p_ a seguinte citação _blockquote_ ou _q_
 
 ```
 A necessidade que é a mãe da invenção.
@@ -228,4 +261,22 @@ Esta é a primeira quebra de linha sem paragrafo para continuar um assunto.
 
 ```
 Esta é a última quebra de linha para encerrar o assunto.
+```
+
+- Adicione o sequinte parágrafo _p_ e inclui uma abreviação _abbr_ e um **atributo** _title_ passe o mouse por cima e verá a descrição da abreviatura.
+
+```
+<p>O Conselho Regional <abbr title="Ordem dos Musicos do Brasil">OMB</abbr> disse que estão abertas as inscrições para os Cursos de Música.</ p>
+```
+
+- Adicione um parágrafo _p_ e inclua endereço _abbr_ abaixo
+
+```
+Av. Alm. Barroso, 72<br>
+Centro<br>
+Rio de Janeiro<br>
+RJ<br>
+20031-001<br>
+Box 564, Disneyland<br>
+BR
 ```
